@@ -4,7 +4,7 @@ class Search extends Component{
 
   onSubmit(e){
     e.preventDefault();
-    let username = this.refs.username.va,ue.trim();
+    let username = this.refs.username.value.trim();
     if(!username){
       alert('please enter a username');
       return;
